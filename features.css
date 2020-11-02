@@ -85,37 +85,37 @@ body{
     letter-spacing: -.06em;
 }
 
-.row>div{
+.pricing .row>div{
     display: inline-block;
     height: 475px;
     width: 255px;
     border: 1px #ddd solid;
 }
 
-.row>div:nth-child(2){
+.pricing .row>div:nth-child(2){
     background-color: #005bea;
     box-shadow: 0 16px 28px 0 rgba(0,0,0,.24);
 }
 
-.row>div:first-child{
+.pricing .row>div:first-child{
     margin-left: 0px;
     margin-right: 28px;
 }
-.row>div:nth-child(3){
+.pricing .row>div:nth-child(3){
     margin-left: 28px;
 }
-.row>div:last-child{
+.pricing .row>div:last-child{
     margin-left: 28px;
     margin-right: 0px;
 }
 
-.row>div>div{
+.pricing .row>div>div{
     width: 203px;
     height: 423px;
     margin: 20px auto;
 }
 
-.row>div h4{
+.pricing .row>div h4{
     font-size: 16px;
     font-weight: 700;
     margin-top: 48px;
@@ -123,40 +123,40 @@ body{
     color: #444;
     text-align: left;
 }
-.row>div:nth-child(2) h4{
+.pricing .row>div:nth-child(2) h4{
     color: #fff;
 }
 
-.row>div h3{
+.pricing .row>div h3{
     font-size: 32px;
     font-weight: 700;
     color: #444;
     margin-bottom: 15px;
 }
-.row>div:nth-child(2) h3{
+.pricing .row>div:nth-child(2) h3{
     color: #fff;
 }
-.row>div h3>span{
+.pricing .row>div h3>span{
     font-size: 16px;
 }
 
-.row>div p{
+.pricing .row>div p{
     font-size: 13px;
     margin-bottom: 35px;
     font-family: 'Roboto', sans-serif;
     color: #777;
 }
-.row>div:nth-child(2) p{
+.pricing .row>div:nth-child(2) p{
     color: #fff;
 }
 
-.row>div p+div{
+.pricing .row>div p+div{
     border-bottom: 1px solid #ddd;
     margin-bottom: 33px;
     margin-top: 50px;
 }
 
-.row li{
+.pricing .row li{
     display: block;
     position: relative;
     color: #333;
@@ -165,7 +165,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
-.row>div:nth-child(2) li{
+.pricing .row>div:nth-child(2) li{
     color: #fff;
 }
 
@@ -218,7 +218,7 @@ body{
     transition: all .5s;
 }
 
-.row>div:nth-child(2) ul+a>div{
+.pricing .row>div:nth-child(2) ul+a>div{
     background-color: #fff;
     color: #333;
 }
